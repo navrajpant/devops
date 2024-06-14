@@ -6,6 +6,6 @@ git branch -d <branch-name>
 git branch --merged
 git push origin <branch-name>
 git push origin --delete <branch-name>
-git
+git pull (we can use git pull command for pulling the all updated code on git hub)
 
 
