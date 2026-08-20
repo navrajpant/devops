@@ -1,3 +1,0 @@
-git remote add origin https://token@github.com/username/repositoryname
-ssh -i linux123.pem ec2-user@publicIP
-
