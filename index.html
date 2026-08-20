@@ -3,29 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>DevOps Portfolio</title>
+
+    <!-- Connect CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Welcome to My Website</h1>
+    <header>
+        <h1>DevOps Engineer</h1>
+        <p>Cloud | Linux | AWS | Terraform | Docker | Kubernetes</p>
+    </header>
 
-    <p>Hello! This is my first HTML webpage.</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <h2>About Me</h2>
-    <p>I am learning HTML, Linux, AWS, Terraform, and DevOps.</p>
+    <main>
 
-    <h2>My Skills</h2>
-    <ul>
-        <li>AWS</li>
-        <li>Azure</li>
-        <li>Terraform</li>
-        <li>Docker</li>
-        <li>Kubernetes</li>
-        <li>Jenkins</li>
-        <li>Ansible</li>
-    </ul>
+        <section id="home" class="hero">
+            <h2>Welcome to My Website</h2>
+            <p>
+                I am learning Cloud Computing and DevOps technologies.
+            </p>
+            <button>Learn More</button>
+        </section>
 
-    <button>Click Me</button>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a DevOps and Cloud enthusiast interested in AWS,
+                Terraform, Docker, Kubernetes, Jenkins, Git, and Linux.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <div class="skills-container">
+                <div class="skill">AWS</div>
+                <div class="skill">Linux</div>
+                <div class="skill">Git & GitHub</div>
+                <div class="skill">Terraform</div>
+                <div class="skill">Docker</div>
+                <div class="skill">Kubernetes</div>
+                <div class="skill">Jenkins</div>
+                <div class="skill">Ansible</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: example@email.com</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My DevOps Portfolio</p>
+    </footer>
 
 </body>
 </html>
